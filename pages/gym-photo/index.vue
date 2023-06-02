@@ -1,0 +1,3 @@
+<template>
+    gym-photo
+</template>

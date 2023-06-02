@@ -1,0 +1,3 @@
+<template>
+    price-list
+</template>
