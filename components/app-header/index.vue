@@ -13,7 +13,7 @@
                 </div>
                 <div class="right flex items-center w-full lg:w-auto px-[20px] sm:px-0">
                     <div class="flex items-center mr-auto">
-                        <nuxt-icon class="my-4 mx-2 block h-[16px] hover:cursor-pointer" name="common/phone"></nuxt-icon>
+                        <nuxt-icon class="my-4 mr-2 block h-[16px] hover:cursor-pointer" name="common/phone"></nuxt-icon>
                         <nuxt-icon class="my-4 mx-2 block h-[16px] hover:cursor-pointer" name="common/chat"></nuxt-icon>
                         <nuxt-icon class="my-4 mx-2 block h-[16px] hover:cursor-pointer" name="common/email"></nuxt-icon>
                         <NuxtLink class="flex items-center mx-2" v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)">{{
